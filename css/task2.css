@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+nav h1, h5{
+    color: white;
+}
+
+nav p , nav a{
+    color: grey;
+}
+
+nav div a.heading-first{
+    margin-left: 400px;
+}
+
+.carousel-item img{
+    width: 50vw;  /*why this is not working*/
+}
+
+.preview span, .next span{
+    background-color: green;
+    color: rgb(15, 11, 11);
+}
+
+.nav-item{
+    color: white;
+    /* background-color: red; */
+}
+
+/* img{
+    height: 100px !important;
+} */
+
+
+
+/* cards  */
+@media (max-width:1023px){
+    .card-custom{
+        flex-direction: column;
+    }
+}
+
+
+
+/* statements  */
+
+.custom-testimonial{
+    width: 35%;
+}
+@media (max-width:1023px){
+    .custom-testimonial{
+        width: 90vw;
+    }
+}
+
+
+@media (max-width:1023px){
+    .custom-statements{
+        flex-direction: column;
+    }
+}
+
+
+.bg{
+    background-color: seashell;
+}
+
+
+/* footer  */
+footer.dropdown{
+    width: 15%;
+    margin: 20px;
+}
+
+
+@media (max-width:1023px){
+    .custom-footer{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:727px){
+    .custom-footer{
+       flex-direction: column;
+    }
+    .custom-footer div{
+        margin: 20px;
+    }
+}
+
+
+/* end  */
+.cta{
+    background-color: black;
+    text-align: center;
+    color: grey;
+    width: 100%;
+    
+}
